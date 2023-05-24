@@ -6,11 +6,15 @@ body {
 	font-family: 'Inter';
 	font-style: normal;
 }
-.top-header {
-	background-color: white;
+nav {
 	position: sticky;
+	background-color: white;
+	
 	top:0;
 	z-index: 1000;
+}
+.top-header {
+	
 	display: flex;
 	justify-content: space-between;
 	padding-inline: 100px;
@@ -41,7 +45,9 @@ body {
 .social-link img {
 	width: 20px;
 }
-
+.d-block{
+	width: 100%;
+}
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -84,15 +90,16 @@ body {
 	font-weight: 800;
 	font-style: italic;
 	width: 60%;
+	font-size: 18px ;
 }
 #about-me p {
 	width: 80%;
 	font-size: 14px;
 }
 
-#gallery {
+/* #gallery {
 	/*	min-height: 100vh; */
-}
+ 
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -242,6 +249,9 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+.meta{
+	margin-top: 10px;
 }
 
 @media all and (max-width: 1180px) {
